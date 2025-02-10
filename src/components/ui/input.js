@@ -1,3 +1,3 @@
 export function Input(props) {
-  return <input {...props} />;
+  return <input type="text" className="input" {...props} />;
 }
